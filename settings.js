@@ -57,7 +57,7 @@ module.exports = {
      * Create repo: https://github.com/new
      * @type {string}
      */
-    GITHUB_REPO: process.env.GITHUB_REPO || 'oureco/mishu-sessions',
+    GITHUB_REPO: process.env.GITHUB_REPO || 'marco-malik-tech-TEAM/MALIK-MD-BOT',
 
     /**
      * @description GitHub Branch
@@ -126,25 +126,6 @@ module.exports = {
      */
     BOT_FOOTER: process.env.BOT_FOOTER || '© ᴘᴏᴡᴇʀᴇᴅ ʙʏ MARCO MALIK-ᴍᴅ',
 
- // ============================================
-    // 📵 ANTI-CALL SETTINGS
-    // ============================================
-
-    /**
-     * @description Auto reject incoming calls
-     * @type {string}
-     * @default "false"
-     */
-    ANTI_CALL: 'false',
-
-    /**
-     * @description Message sent when rejecting calls
-     * @type {string}
-     */
-    REJECT_MSG: '📵 Call rejected by bot',
-
-    // ... rest of settings ...
-};
     // ═══════════════════════════════════════════
     //  👁️ STATUS AUTOMATION
     // ═══════════════════════════════════════════
